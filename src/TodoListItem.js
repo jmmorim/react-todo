@@ -1,9 +1,9 @@
 import React from 'react';
 
-function TodoListItem (props) {
+function TodoListItem ({vec}) {
 
     return (
-        <li>{props.vector.title}</li>
+        <li>{vec.title}</li>
         )
 };
 
